@@ -17,22 +17,23 @@
  } 
  .left-button {
 
-  width: 50px;             /* Set the width */
-  height: 50px;            /* Set the height */
-  border-radius: 50%;
+  width: 20%;             /* Set the width */
+  height: 25px;            /* Set the height */
+  border-radius: 50em;
   display: flex;           /* Center text */
   align-items: center;     /* Vertically align text */
   justify-content: center; /* Horizontally align text */
   margin-top: 10px ;
 
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  background-color: #ff7b00;
-  border: none;
-  color: white;
+  background-color: #ffffff00;
+  border-style: solid;
+  border-color: #FE6E00;
+  color:#ff7b00;
   padding: 10px;
   font-size: 30px; 
   position: fixed;          /* Anchor to the viewport */
-  bottom: 20px auto;             /* 20px from the bottom */
+
   
   
   transition: transform 0.2s ,background-color 0.2s
@@ -41,7 +42,8 @@
   transform: scale(0.95);
 }
 .left-button:hover{
-  background-color: #6d3500;
+  background-color: #ff7b00;
+  color: #ffffff;
 }
 .corner-button {
 
@@ -144,6 +146,7 @@
     .sidebar { 
       width: 20%;
       height: fit-content;
+      margin-left: 2%;
       
     
     }
