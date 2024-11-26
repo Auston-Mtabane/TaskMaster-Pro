@@ -1,0 +1,61 @@
+body {
+    font-family: monospace;
+    background-color: rgb(255, 174, 0);
+    background-image: url("/img/loginBG.jpg");
+    background-size: 50%;
+    background-origin: border-box;
+    background-position: center;
+}
+
+#p1 {
+    font-size: .8em;
+}
+
+#h1sign {
+    font-size: 2.1em;
+}
+input {
+    border-color: orange;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 10px;
+
+    text-shadow: 5px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+
+    width: 20em;
+    height: 2em;
+
+}
+button {
+    border: none;
+    border-radius: .6em;
+    background-color: orange;
+    color: white;
+    font-family: monospace;
+    padding: 5%;
+    display: flex;
+
+
+}
+#SignUpDiv {
+
+    display: block;
+
+    max-width:  fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+    margin-bottom: auto;
+    border: none;
+    border-radius: 1em;
+
+    /* justify-items: center; */
+    background-color: rgb(255, 255, 255);
+    padding: 2.5em;
+    box-shadow: .1em 0.2em .5em rgba(0, 0, 0, 0.479);
+
+}
