@@ -3,13 +3,13 @@
     padding: 0;
     box-sizing: border-box;
   }
-  
+
   html, body {
     width: 100%;
     height: 100%;
     background-color: #FE6E00;
   }
- #p1 {
+ #H1 {
     font-family: monospace;
     font-size: 5vw;
     color: #ffffff;
@@ -23,8 +23,7 @@
   display: flex;           /* Center text */
   align-items: center;     /* Vertically align text */
   justify-content: center; /* Horizontally align text */
-  margin-top: 10px ;
-  margin: auto;
+  margin-top: 1.5%;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   background-color: #ffffff00;
   border-style: solid;
@@ -160,30 +159,48 @@
   .list-name {
     display: flex;
     font-family: Helvetica;
+    font-size: 1em;
+    border: solid 1px;
+    border-color: #3f3f3f25;
+    border-radius: 7px;
+
     background-color: #ffffff;
     color: #3f3f3f;
     justify-content: center;
     align-items: center;
     padding: 2%;
     width:100%;
+    margin-bottom: 5px;
 
     overflow: hidden;
     text-overflow: ellipsis;
+    overflow-block: clip;
     white-space: nowrap;
+    empty-cells: hide;
+    cursor: pointer;
+    transition: background-color 0.3s ease,border-color 0.3s ease;
 
-
-    
+  }
+  .list-name:focus {
+    border-color: #ff7b00;
+    outline: none;
+  }
+  .list-name.selected {
+    border-color: #ff7b00;
 
   }
   #listNameDiv {
-    background-color: #ff7b00;
+    background-color: #ffffff;
     gap: 10%;
+    padding: 10px;
   }
   .text {
     font-family: Helvetica;
     text-align: center;
     padding-bottom: 6%;
     color: #FE6E00;
+    font-size: 1rem;
+
   }
 
 
