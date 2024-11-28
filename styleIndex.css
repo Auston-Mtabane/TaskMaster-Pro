@@ -34,7 +34,8 @@
   color:#ff7b00;
   padding: 10px;
   font-size: 30px; 
-  position: fixed;          /* Anchor to the viewport */
+  width: 100%;
+        /* Anchor to the viewport */
 
   
   
@@ -102,9 +103,11 @@
   
   .box2 {
     display: inline-block;
+    justify-content: center;
     background-color: #ffffff;
     flex-grow: 1; 
     border-top-right-radius: 1.5em;
+    
     
   }
   .sidebar{
@@ -143,7 +146,7 @@
 
     .box2 {
       width: 100%; /* Take half the width */
-      height: auto ; /* Full height to stretch to the bottom */
+      height: auto; /* Full height to stretch to the bottom */
       min-height: 80%;
     }
     .sidebar { 
