@@ -8,6 +8,9 @@
     width: 100%;
     height: 100%;
     background-color: #FE6E00;
+    font-family: Helvetica;
+    font-size: 1em;
+    color: #3f3f3f;
   }
  #H1 {
     font-family: monospace;
@@ -117,11 +120,12 @@
   }
   .middle {
     display: block;
-
+    flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
     margin-top: 3vh;
+    margin-left: 20px;
     /* margin: auto; */
   }
   
@@ -187,6 +191,7 @@
   }
   .list-name.selected {
     border-color: #ff7b00;
+    background-color: hsla(29, 100%, 50%, 0.247);
 
   }
   #listNameDiv {
@@ -202,6 +207,53 @@
     font-size: 1rem;
 
   }
+  #nameoflist {
+    font-family: Helvetica;
+    text-align: center;
+    color: #FE6E00;
+    font-size: x-large;
+  }
+
+  #divider {
+
+    margin: auto;
+    
+    height: 1px;
+    width: 80%;
+    background-color: #cfcfcf;
+    margin-bottom: 5px;
+    
+
+  }
+  .list-item {
+    display: flex;
+    font-family: Helvetica;
+    font-size: 1em;
+    border: none;
+    border-color: #3f3f3f25;
+    border-radius: 100px;
+
+    background-color: #eeeeee;
+    color: #3f3f3f;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    width:100%;
+    max-height: 5px;
+    margin-bottom: 5px;
+  
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    overflow-block: clip;
+    white-space: nowrap;
+    empty-cells: hide;
+    cursor: pointer;
+    transition: background-color 0.3s ease,border-color 0.3s ease;
+
+  }
+
+
 
 
   
